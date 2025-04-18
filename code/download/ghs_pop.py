@@ -7,7 +7,3 @@ def main(verbose: bool = False) -> None:
         path = f"../data/ghs-pop/{year}.zip"
         download_from_url(url, dst=path, verbose=verbose)
         unzip(src=path, verbose=verbose)
-
-
-if __name__ == "__main__":
-    main()
