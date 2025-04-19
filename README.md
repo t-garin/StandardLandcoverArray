@@ -15,5 +15,3 @@ Final products will look like:
 - sla_10m.nc (or .zarr)
 - sla_100m.nc (or .zarr)
 - ...
-
-The transformation part is built as much as possible on GDAL, to not reinvent the wheel. 
